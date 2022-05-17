@@ -1,10 +1,36 @@
-body{
-    background-color:rgb(47, 137, 216)
+h1{
+   color: blueviolet;
+}
+
+body {
+    background-image: url(fondo.jpg);
     
 }
-h1{
-    font-family: monospace;
-    color: rgb(110, 20, 20);
-    margin-top: 40px;
-    align-items: center;
+
+.content,
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
 }
+
+button {
+    padding: 20px 15px;
+    background-color: rgb(218, 81, 202);
+    border: 3px solid #238951;
+    font-size: 16px;
+    font-family: monospace;
+    color: #164535;
+    line-height: 1;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 40px;
+}
+
